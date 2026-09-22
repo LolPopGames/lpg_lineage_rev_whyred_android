@@ -3,7 +3,7 @@
   <remote name="codeberg" fetch="https://codeberg.org" revision="lineage-18.1" />
 
   <remove-project name="LineageOS/android" />
-  <project name="LineageOS-Revived/android" path="android" groups="lineage" />
+  <project name="LolPopGames/lpg_lineage_rev_whyred_android" path="android" groups="lineage" />
 
   <remove-project name="LineageOS/android_art" />
   <project name="LineageOS-Revived/android_art" path="art" groups="lineage" />
@@ -11,7 +11,7 @@
   <remove-project name="LineageOS/android_bootable_recovery" />
   <project name="LineageOS-Revived/android_bootable_recovery" path="bootable/recovery" groups="lineage" />
 
-  <remove-project name="LineageOS/android_build" />
+  <!-- <remove-project name="LineageOS/android_build" />
   <project name="LineageOS-Revived/android_build" path="build/make" groups="lineage" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -20,7 +20,7 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-  </project>
+  </project> -->
   <remove-project name="LineageOS/android_build_soong" />
   <project name="LineageOS-Revived/android_build_soong" path="build/soong" groups="lineage" >
     <linkfile src="root.bp" dest="Android.bp" />
@@ -34,8 +34,8 @@
   <remove-project name="platform/external/vixl" />
   <project name="crdroidandroid/android_external_vixl" path="external/vixl" revision="11.0" />
 
-  <remove-project name="LineageOS/android_frameworks_base" />
-  <project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" groups="lineage" />
+  <!-- <remove-project name="LineageOS/android_frameworks_base" />
+  <project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" groups="lineage" /> -->
   <remove-project name="LineageOS/android_frameworks_native" />
   <project name="LineageOS-Revived/android_frameworks_native" path="frameworks/native" groups="lineage" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
