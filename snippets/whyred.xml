@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device Tree -->
+  <project name="LolPopGames/lpg_lineage_rev_whyred_android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="github" revision="lineage-18.1" />
+  <!-- Common Device Tree for sdm660 -->
+  <project name="LineageOS/android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="github" revision="lineage-18.1" />
+  <!-- Kernel -->
+  <project name="LineageOS/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="lineage-18.1" />
+  <!-- Vendor Blobs from GitLab mirror -->
+  <project name="The-Muppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="gitlab" revision="lineage-18.1" />
+</manifest>
